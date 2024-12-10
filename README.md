@@ -26,12 +26,12 @@ An interactive quiz application about the ancient Axumite Kingdom, built with Re
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/axumite-kingdom-quiz.git
+git clone https://github.com/lisan-5/axumite-quiz-2.0.git
 ```
 
 2. Install dependencies
 ```bash
-cd axumite-kingdom-quiz
+cd axumite-quiz-2.0
 npm install
 ```
 
@@ -44,44 +44,6 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## Project Structure
-
-```
-axumite-kingdom-quiz/
-├── public/
-│   └── axum-logo.svg
-├── src/
-│   ├── components/
-│   │   ├── ContactInfo.tsx
-│   │   ├── DifficultySelector.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Logo.tsx
-│   │   ├── ProgressBar.tsx
-│   │   ├── QuizCard.tsx
-│   │   ├── ResultScreen.tsx
-│   │   └── Timer.tsx
-│   ├── data/
-│   │   └── questions.ts
-│   ├── hooks/
-│   │   ├── useQuizProgress.ts
-│   │   └── useTimer.ts
-│   ├── store/
-│   │   ├── quizStore.ts
-│   │   └── themeStore.ts
-│   ├── types/
-│   │   └── quiz.ts
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── LICENSE
-└── tsconfig.json
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -89,13 +51,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-Lisanegebriel Abay Kebedew
-- Email: lisan5abay@gmail.com
-
-## Acknowledgments
-
-- Special thanks to all contributors and testers
-- Inspired by the rich history of the Axumite Kingdom
